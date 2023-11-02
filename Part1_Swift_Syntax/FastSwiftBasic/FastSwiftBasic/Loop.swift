@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Loop: View {
-    let animals = [
+    let animals: [String] = [
         "dog", "cat", "lion", "tiger", "bird", "fish"
     ]
 

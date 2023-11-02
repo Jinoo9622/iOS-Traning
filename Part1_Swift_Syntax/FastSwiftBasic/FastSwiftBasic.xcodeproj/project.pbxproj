@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		366C8E602AF3DCB80002164A /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C8E5F2AF3DCB80002164A /* Loop.swift */; };
+		366C8E622AF3E0320002164A /* FunctionTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C8E612AF3E0320002164A /* FunctionTraining.swift */; };
 		36C11A8D2AE1653500DC6030 /* FastSwiftBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C11A8C2AE1653500DC6030 /* FastSwiftBasicApp.swift */; };
 		36C11A8F2AE1653500DC6030 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C11A8E2AE1653500DC6030 /* Variable.swift */; };
 		36C11A912AE1653700DC6030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C11A902AE1653700DC6030 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		366C8E5F2AF3DCB80002164A /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		366C8E612AF3E0320002164A /* FunctionTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTraining.swift; sourceTree = "<group>"; };
 		36C11A892AE1653500DC6030 /* FastSwiftBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastSwiftBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C11A8C2AE1653500DC6030 /* FastSwiftBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSwiftBasicApp.swift; sourceTree = "<group>"; };
 		36C11A8E2AE1653500DC6030 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				36E186472AE530E1007A55E4 /* MyCollections.swift */,
 				36E186492AE53519007A55E4 /* Condition.swift */,
 				366C8E5F2AF3DCB80002164A /* Loop.swift */,
+				366C8E612AF3E0320002164A /* FunctionTraining.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				36C11A8F2AE1653500DC6030 /* Variable.swift in Sources */,
 				36C11A8D2AE1653500DC6030 /* FastSwiftBasicApp.swift in Sources */,
 				366C8E602AF3DCB80002164A /* Loop.swift in Sources */,
+				366C8E622AF3E0320002164A /* FunctionTraining.swift in Sources */,
 				36E186482AE530E1007A55E4 /* MyCollections.swift in Sources */,
 				36E1864A2AE53519007A55E4 /* Condition.swift in Sources */,
 			);
