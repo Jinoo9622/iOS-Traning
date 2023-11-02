@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		366C8E602AF3DCB80002164A /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C8E5F2AF3DCB80002164A /* Loop.swift */; };
 		366C8E622AF3E0320002164A /* FunctionTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C8E612AF3E0320002164A /* FunctionTraining.swift */; };
+		366C8E642AF3E3F30002164A /* Half.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C8E632AF3E3F30002164A /* Half.swift */; };
 		36C11A8D2AE1653500DC6030 /* FastSwiftBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C11A8C2AE1653500DC6030 /* FastSwiftBasicApp.swift */; };
 		36C11A8F2AE1653500DC6030 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C11A8E2AE1653500DC6030 /* Variable.swift */; };
 		36C11A912AE1653700DC6030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C11A902AE1653700DC6030 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		366C8E5F2AF3DCB80002164A /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		366C8E612AF3E0320002164A /* FunctionTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTraining.swift; sourceTree = "<group>"; };
+		366C8E632AF3E3F30002164A /* Half.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half.swift; sourceTree = "<group>"; };
 		36C11A892AE1653500DC6030 /* FastSwiftBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastSwiftBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C11A8C2AE1653500DC6030 /* FastSwiftBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastSwiftBasicApp.swift; sourceTree = "<group>"; };
 		36C11A8E2AE1653500DC6030 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				36E186492AE53519007A55E4 /* Condition.swift */,
 				366C8E5F2AF3DCB80002164A /* Loop.swift */,
 				366C8E612AF3E0320002164A /* FunctionTraining.swift */,
+				366C8E632AF3E3F30002164A /* Half.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366C8E642AF3E3F30002164A /* Half.swift in Sources */,
 				36C11A9B2AE169C300DC6030 /* VariableType.swift in Sources */,
 				36C11A8F2AE1653500DC6030 /* Variable.swift in Sources */,
 				36C11A8D2AE1653500DC6030 /* FastSwiftBasicApp.swift in Sources */,
