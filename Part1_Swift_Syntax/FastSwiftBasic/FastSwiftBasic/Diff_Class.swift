@@ -10,7 +10,9 @@ import SwiftUI
 struct Diff: View {
 
     let myCarStruct = CarStruct(name: "Car - struct", owner: "jinu")
-    let myCarClass = CarClass(name: "Car - class", owner: "jinoo")
+    @ObservedObject var myCarClass = CarClass(name: "Car - class", owner: "jinoo")
+    // State: View(struct)안의 값이 변경되는 경우, View가 변경되어 다시 그려질 때, 초기화되지 않고, 저장되어있음 (저장된 값을 불러옴..)
+    @State var name: String = ""
 
     var body: some View {
         VStack {
@@ -48,8 +50,9 @@ struct CarStruct {
     }
 }
 
-class CarClass {
-    var name: String
+class CarClass: ObservableObject {
+    // Published: ObservableObject의 해당 변수(property)가 변경될 때, ObservedObject에게 update 요청
+    @Published var name: String
     var owner: String
 
     func sayHi() {
