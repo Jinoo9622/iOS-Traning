@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361011CA2B025AB000560EF7 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361011C92B025AB000560EF7 /* Selection.swift */; };
+		361011CC2B025E7600560EF7 /* Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361011CB2B025E7600560EF7 /* Nil.swift */; };
 		365906012AF91FFD000332D8 /* Elevator_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365906002AF91FFD000332D8 /* Elevator_Struct.swift */; };
 		365906032AF924E3000332D8 /* Diff_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365906022AF924E3000332D8 /* Diff_Class.swift */; };
 		366C8E602AF3DCB80002164A /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366C8E5F2AF3DCB80002164A /* Loop.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361011C92B025AB000560EF7 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		361011CB2B025E7600560EF7 /* Nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nil.swift; sourceTree = "<group>"; };
 		365906002AF91FFD000332D8 /* Elevator_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator_Struct.swift; sourceTree = "<group>"; };
 		365906022AF924E3000332D8 /* Diff_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff_Class.swift; sourceTree = "<group>"; };
 		366C8E5F2AF3DCB80002164A /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
@@ -53,7 +57,6 @@
 		36C11A802AE1653500DC6030 = {
 			isa = PBXGroup;
 			children = (
-				36BD82042AFBCDCF0053AF5D /* Choice.swift */,
 				36C11A8B2AE1653500DC6030 /* FastSwiftBasic */,
 				36C11A8A2AE1653500DC6030 /* Products */,
 			);
@@ -82,6 +85,9 @@
 				366C8E632AF3E3F30002164A /* Half.swift */,
 				365906002AF91FFD000332D8 /* Elevator_Struct.swift */,
 				365906022AF924E3000332D8 /* Diff_Class.swift */,
+				36BD82042AFBCDCF0053AF5D /* Choice.swift */,
+				361011C92B025AB000560EF7 /* Selection.swift */,
+				361011CB2B025E7600560EF7 /* Nil.swift */,
 			);
 			path = FastSwiftBasic;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361011CA2B025AB000560EF7 /* Selection.swift in Sources */,
 				366C8E642AF3E3F30002164A /* Half.swift in Sources */,
 				36C11A9B2AE169C300DC6030 /* VariableType.swift in Sources */,
 				36BD82052AFBCDCF0053AF5D /* Choice.swift in Sources */,
@@ -171,6 +178,7 @@
 				36C11A8D2AE1653500DC6030 /* FastSwiftBasicApp.swift in Sources */,
 				366C8E602AF3DCB80002164A /* Loop.swift in Sources */,
 				366C8E622AF3E0320002164A /* FunctionTraining.swift in Sources */,
+				361011CC2B025E7600560EF7 /* Nil.swift in Sources */,
 				365906032AF924E3000332D8 /* Diff_Class.swift in Sources */,
 				36E186482AE530E1007A55E4 /* MyCollections.swift in Sources */,
 				36E1864A2AE53519007A55E4 /* Condition.swift in Sources */,
