@@ -19,7 +19,7 @@ enum Menu {
 
 struct Choice: View {
 
-    var direction: Direction = .east
+//    var direction: Direction = .east
     var animal: Animals = .dog
     var menu1: Menu = .pizza(1)
     var menu2: Menu = .steak("미디움")
@@ -27,7 +27,7 @@ struct Choice: View {
 
     var body: some View {
         VStack {
-            Text("방향은 \(direction.rawValue)쪽 입니다")
+//            Text("방향은 \(direction.rawValue)쪽 입니다")
             Text("좋아하는 동물은 \(animal.rawValue) 입니다")
         }
     }
