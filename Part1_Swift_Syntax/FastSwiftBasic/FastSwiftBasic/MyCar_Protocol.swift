@@ -28,7 +28,7 @@ struct MyCar_Protocol: View {
             } label: {
                 Text("감속")
             }
-
+            
             Text("Hyundai speed: \(hyundaiSpeed)")
             Button {
                 hyundaiSpeed = hyundai.speedDown(speed: hyundaiSpeed)
@@ -36,6 +36,7 @@ struct MyCar_Protocol: View {
                 Text("감속")
             }
         }
+    }
 }
 
 struct KIA: Driveable {
