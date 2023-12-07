@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3656E3292B21F0B0003A5CA0 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656E3282B21F0B0003A5CA0 /* Onboarding.swift */; };
+		3656E32B2B21F511003A5CA0 /* Onboarding_Ex.png in Resources */ = {isa = PBXBuildFile; fileRef = 3656E32A2B21F511003A5CA0 /* Onboarding_Ex.png */; };
 		36894F1A2B1358CB005BBB9B /* WarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36894F192B1358CB005BBB9B /* WarmUpApp.swift */; };
 		36894F1C2B1358CB005BBB9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36894F1B2B1358CB005BBB9B /* ContentView.swift */; };
 		36894F1E2B1358CC005BBB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36894F1D2B1358CC005BBB9B /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3656E3282B21F0B0003A5CA0 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		3656E32A2B21F511003A5CA0 /* Onboarding_Ex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onboarding_Ex.png; sourceTree = "<group>"; };
 		36894F162B1358CB005BBB9B /* WarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36894F192B1358CB005BBB9B /* WarmUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpApp.swift; sourceTree = "<group>"; };
 		36894F1B2B1358CB005BBB9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,8 +65,10 @@
 				36894F1B2B1358CB005BBB9B /* ContentView.swift */,
 				369A72E82B13613D00E01DC3 /* SimpleView.swift */,
 				36A718FB2B1B5CCF00027610 /* Layout.swift */,
+				3656E3282B21F0B0003A5CA0 /* Onboarding.swift */,
 				36A718FD2B1B73E200027610 /* MyButton.swift */,
 				36894F1D2B1358CC005BBB9B /* Assets.xcassets */,
+				3656E32A2B21F511003A5CA0 /* Onboarding_Ex.png */,
 				36894F1F2B1358CC005BBB9B /* Preview Content */,
 			);
 			path = WarmUp;
@@ -135,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36894F212B1358CC005BBB9B /* Preview Assets.xcassets in Resources */,
+				3656E32B2B21F511003A5CA0 /* Onboarding_Ex.png in Resources */,
 				36894F1E2B1358CC005BBB9B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3656E3292B21F0B0003A5CA0 /* Onboarding.swift in Sources */,
 				36894F1C2B1358CB005BBB9B /* ContentView.swift in Sources */,
 				36A718FC2B1B5CCF00027610 /* Layout.swift in Sources */,
 				36A718FE2B1B73E200027610 /* MyButton.swift in Sources */,
