@@ -14,7 +14,7 @@ struct Fruit: Hashable {
 }
 
 struct ListLoop: View {
-    var favoriteFruits = [
+    @State var favoriteFruits = [
         Fruit(
             name: "Apple",
             matchFruitName: "Banana",
@@ -42,18 +42,42 @@ struct ListLoop: View {
         )
     ]
 
+    @State var fruitName: String = ""
+
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(favoriteFruits, id: \.self) { fruit in
-                    VStack(alignment: .leading) {
-                        Text("name: \(fruit.name)")
-                        Text("match: \(fruit.matchFruitName)")
-                        Text("price: \(fruit.price)")
+            VStack {
+
+                HStack {
+                    TextField("Insert fruit name", text: $fruitName)
+                    Button {
+                        favoriteFruits.append(Fruit(name: fruitName, matchFruitName: "inserted", price: 1000))
+                    } label: {
+                        Text("Insert")
+                            .padding()
+                            .background(.blue)
+                            .foregroundStyle(.white)
+                            .clipShape(.rect(cornerRadius: 10.0))
                     }
                 }
+                .padding()
+
+                List {
+                    ForEach(favoriteFruits, id: \.self) { fruit in
+                        VStack(alignment: .leading) {
+                            Text("name: \(fruit.name)")
+                            Text("match: \(fruit.matchFruitName)")
+                            Text("price: \(fruit.price)")
+                        }
+                    }.onDelete { indexSet in
+                        if let index = indexSet.first {
+                            print("will removed: \(favoriteFruits[index])")
+                        }
+                        favoriteFruits.remove(atOffsets: indexSet)
+                    }
+                }
+                .navigationTitle("Fruit List")
             }
-            .navigationTitle("Fruit List")
         }
     }
 }
